@@ -1,0 +1,92 @@
+//Ayesha Khurram (26i-3086) SE-B 
+<!--
+Name: Ayesha Khurram
+Roll Number: 26i-3086
+Section: Write your section
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chai Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <main>
+
+        <section class="welcome">
+
+            
+            </div>
+
+            <h2>CHAI CORNER MENU</h2>
+
+            <p>
+                Tea and delicious snacks!
+            </p>
+
+        </section>
+       
+
+        <section class="menu">
+          <img src="tea.png" alt=" tea image" class="tea-image">
+
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                </tr>
+
+                <tr>
+                    <td>Chai</td>
+                    <td>Rs. 100</td>
+                    <td>Drinks</td>
+                </tr>
+
+                <tr>
+                    <td>Samosa</td>
+                    <td>Rs. 50</td>
+                    <td>Food</td>
+                </tr>
+
+                <tr>
+                    <td>Pakoray</td>
+                    <td>Rs. 120</td>
+                    <td>Food</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <button onclick="placeOrder()">Order</button>
+
+        <p id="message"></p>
+
+    </main>
+
+    <footer>
+        <p>Enjoy!</p>
+    </footer>
+
+    <script>
+        function placeOrder() {
+            console.log("Order button was clicked");
+
+            window.alert(
+                "Thank you! Your order has been received."
+            );
+
+            document.getElementById("message").innerHTML =
+                "Thank you for choosing Chai Corner!";
+        }
+    </script>
+
+</body>
+</html>
